@@ -1,0 +1,205 @@
+/****** Body *****/
+body{
+    font-family: 'Raleway', serif;
+}
+#about, #portfolio, #contact{
+    width: 1400px;
+}
+.topnav,header p, #portfolio p{
+    color: #313131;
+}
+header{
+    height: 800px;
+    padding-top: 50px;
+}
+#about{
+    height: 800px;
+    background-color: #f5989d;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+#portfolio{
+    height: 700px;
+    display: inline-block;
+}
+#contact{
+    height: 650px;
+    background-color: #f5989d;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+}
+footer{
+    background-color: #f5989d;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+/****** GRID ******/
+.full-width{
+    width: 1400px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 700px;
+    float: left;
+}
+.third-width{
+    width: 466px;
+    float: left;
+}
+/***** Nav *****/
+/* Add a black background color to the top navigation */
+.topnav{
+    width: 450px;
+    overflow: hidden;
+    float: right;
+    padding: 100px 50px;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a{
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 0 15px;
+    color: inherit;
+    text-decoration: none; 
+}
+/***** Header *****/
+.top-half{
+    padding-left: 50px;
+    float: left;
+    margin-top: 65px;
+}
+.top-half img{
+    vertical-align: top;
+}
+header .lartxt{
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+header{
+    font-size: 72px;
+    padding-top: 0;
+    line-height: 100px;
+    text-align: left;
+}
+header .colortxt, h5{
+    color: #ff654a;
+}
+header p{
+    float: right;
+    font-size: 56px;
+    text-align: right;
+    line-height: 48px;
+    padding-right: 49px;
+    margin-top: 100px;
+}
+/***** About *****/
+.headshot{
+    width: 424px;
+    height: 565px;
+    padding-top: 85px;
+    padding-left: 130px;
+    align-items: center;
+}
+#about h5.smoll{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25px;
+    color: white;
+}
+#about strong{
+    color: #313131;
+    font-size: 50px;
+}
+#about p{
+    text-align: justify;
+    padding: 100px 75px 0 75px;
+}
+#about .excerpt{
+    text-align: right;
+    margin-top: -50px;
+}
+/***** Portfolio *****/
+#portfolio h3{
+    font-size: 120px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    text-align: center;
+}
+#portfolio h6{
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    color: #ff654a;
+    text-decoration: underline;
+    font-size: 18px;
+    
+}
+#portfolio img{
+    width: 350px;
+    height: 222px;
+    margin-top: -50px;
+}
+h5{
+    text-align: right;
+    padding-right: 40px;
+    font-size: 20px;
+    line-height: 20px;
+}
+#portfolio p{
+    font-size: 25px;
+}
+#portfolio img, h5, p{
+    padding-left: 75px;
+}
+#portfolio .third-width.firstpic{
+    margin-top: 25px;
+}
+#portfolio .third-width.secondpic{
+    margin-top: 50px;
+}
+#portfolio .third-width.thirdpic{
+    margin-top: 75px;
+}
+/***** Contact *****/
+#contact h3, img{
+    font-size: 120px;
+    font-weight: lighter;
+    text-align: right;
+    line-height: 100px;
+}
+#contact h3{
+    padding: 100px;
+    margin-bottom: 30px;
+}
+#contact img{
+    float: right;
+    padding: 0 100px;
+    margin-top: -40px;
+}
+#contact .hire-me{
+    font-size: 48px;
+    padding-left: 225px;
+    padding-top: 100px;
+}
+#contact .email{
+    font-size: 60px;
+    padding-left: 100px;
+}
+.hyphy-link{
+    color: inherit;
+    text-decoration: none; 
+}
+/****** Footer *****/
+footer{
+    padding-bottom: 50px;
+}

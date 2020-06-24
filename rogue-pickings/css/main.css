@@ -1,0 +1,124 @@
+/****** base styles *****/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+h1, h2, h3, h4{
+    text-transform: uppercase;
+}
+p{
+    font-size: 16px;
+}
+.top-section, .bottom-section{
+    clear: both;
+    margin: 0 auto;
+}
+/***** Grid *****/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/***** Header *****/
+header{
+    height: 110px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 30px;
+    float: left;
+    padding-top: 47px;
+}
+header h1 span{
+    color: #77a466;
+}
+nav{
+    float: right;
+    padding: 60px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 15px;
+    color: #77a466;
+    font-weight: bold;
+    text-decoration: none;    
+}
+/***** Main Section *****/
+.main-section{
+    height: 456px;
+    padding-top: 35px;
+}
+.main-image img{
+    height: auto;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+.main-section h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #77a466;
+    padding-left: 4px;
+}
+.main-section p{
+    line-height: 23px;
+    padding-left: 4px;
+}
+/****** Bottom Section *****/
+.section-one, .section-two, .section-three {
+	width: 365px;
+	height: 210px;
+	float: left;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.bottom-section h4{
+    font-size: 12px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    color: #77a466;
+    line-height: 35px;
+}
+.section-two{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.reviews{
+    line-height: 21px;
+}
+.section-three{
+    padding-left: 30px;
+}
+.address{
+    line-height: 24px;
+}
+/***** footer ******/
+footer{
+    padding-top: 20px; 
+    margin: 0 auto;
+    height: 50px;
+    clear: both;
+    text-align: center;
+}
+footer h4{
+    font-size: 16px;
+}
+@font-face{
+    font-family: wisdom-script;
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+footer span{
+    font-family: wisdom-script;
+    font-size: 16px;
+    color: #77a466;
+    text-transform: lowercase;
+    font-weight: lighter;
+
+}
